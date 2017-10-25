@@ -10,7 +10,7 @@ import android.view.View
 
 class Practice8DrawArcView : View {
     private val paint = Paint()
-    val rectF = RectF(200f, 100f, 800f, 500f)
+    private val rectF = RectF(200f, 100f, 800f, 500f)
 
     constructor(context: Context) : super(context)
 
